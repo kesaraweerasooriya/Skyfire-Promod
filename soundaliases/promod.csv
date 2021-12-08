@@ -1,0 +1,19 @@
+
+
+name,sequence,file,vol_min,vol_max,vol_mod,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle,compression,secondaryaliasname,volumefalloffcurve,startdelay,speakermap,reverb,lfe percentage,center percentage,platform,envelop_min,envelop_max,envelop percentage
+
+promod_destroyed,1,promod/destroyed.wav,0.7,0.7,,,,360,600,announcer,streamed,,,master,all_mp,,,,,,radio,nowetlevel,,0.1
+promod_planted,1,promod/planted.wav,0.7,0.7,,,,360,600,announcer,streamed,,,master,all_mp,,,,,,radio,nowetlevel,,0.1
+promod_defused,1,promod/defused.wav,0.7,0.7,,,,360,600,announcer,streamed,,,master,all_mp,,,,,,radio,nowetlevel,,0.1
+mp_firstblood,,promod/firstblood.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround2,,music/endround2.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround3,,music/endround3.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround4,,music/endround4.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround5,,music/endround5.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround6,,music/endround6.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround7,,music/endround7.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround8,,music/endround8.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround9,,music/endround9.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+endround1,,music/endround1.mp3,0.6,0.6,music,,,,,music,streamed,,,,all_mp,,,,,,music,nowetlevel fulldrylevel,,,!PC,,,
+
+

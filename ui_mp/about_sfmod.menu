@@ -1,0 +1,152 @@
+#include "ui/menudef.h"
+
+{
+	menuDef 
+	{
+		name	"auconfirm"
+		fullscreen 0
+		rect 230 190 250 120
+		focusColor COLOR_FOCUSED
+		style 1
+		border 1
+
+		itemDef 
+		{
+			name "acwindow"
+			group grpControlbutton
+			rect 0 2 250 120
+			style WINDOW_STYLE_FILLED
+			border 1
+			bordercolor .5 .5 .5 .5
+			forecolor 1 1 1 1
+			backcolor 0.13 0.13 0.20 .85
+			visible 1
+			decoration
+		}
+		
+		itemDef 
+		{
+			name "name"
+			text "sF:Alpha Promod" 
+			style 0
+			textscale .4 
+			textstyle 3
+			rect 0 20 250 20
+			textalign ITEM_ALIGN_CENTER
+			textfont UI_FONT_NORMAL
+			decoration
+			forecolor 1 1 1 1
+			visible 1
+		}
+		
+		//Website
+		itemDef 
+		{
+			name "link"
+			text "Ip: 209.58.164.107:28964" 
+			style 0
+			textscale .20
+			textstyle 3
+			rect 0 30 250 20
+			textalign ITEM_ALIGN_CENTER
+			textfont UI_FONT_NORMAL
+			decoration
+			forecolor 1 1 1 1
+			visible 1
+		}
+
+		// Current version display
+		itemDef 
+		{
+			name "currentvers"
+			text "This modification specially made for ^2sF:Alpha^7." 
+			style 0
+			textscale .22 
+			textstyle 3
+			rect 0 50 250 20
+			textalign ITEM_ALIGN_CENTER
+			textfont UI_FONT_NORMAL
+			decoration
+			forecolor 1 1 1 1
+			visible 1
+		}
+		
+		// Developers
+		itemDef 
+		{
+			name "developers"
+			text "Edited by {sF}_MALAYA & {sF}_GhostRider" 
+			style 0
+			textscale .22 
+			textstyle 3
+			rect 0 60 250 20
+			textalign ITEM_ALIGN_CENTER
+			textfont UI_FONT_NORMAL
+			decoration
+			forecolor 1 1 1 1
+			visible 1
+		}
+		
+		itemDef 
+		{
+			name "developers2"
+			text "This mod is based on ^1PromodLive v2.20^7" 
+			style 0
+			textscale .22 
+			textstyle 3
+			rect 0 75 250 20
+			textalign ITEM_ALIGN_CENTER
+			textfont UI_FONT_NORMAL
+			decoration
+			forecolor 1 1 1 1
+			visible 1
+		}
+		
+		// Former developers
+		itemDef 
+		{
+			name "fdevelopers"
+			text "Thanks to ^2M!rth^7 for launching the server and all the admins for your ideas." 
+			style 0
+			textscale .22 
+			textstyle 3
+			rect 1 90 250 20
+			textalign ITEM_ALIGN_CENTER
+			textfont UI_FONT_NORMAL
+			decoration
+			forecolor 1 1 1 1
+			visible 1
+		}
+		
+		itemDef 
+		{
+			name "thanks2"
+			text "Also thanks to szabto at Github for the promod scripts" 
+			style 0
+			textscale .22 
+			textstyle 3
+			rect 0 100 250 20
+			textalign ITEM_ALIGN_CENTER
+			textfont UI_FONT_NORMAL
+			decoration
+			forecolor 1 1 1 1
+			visible 1
+		}
+
+		// spec thanks
+		itemDef 
+		{
+			name "thanks"
+			text "^2Click Connect to JOIN sF:Alpha PROMOD" 
+			style 0
+			textscale .25 
+			textstyle 3
+			rect 0 119 250 20
+			textalign ITEM_ALIGN_CENTER
+			textfont UI_FONT_NORMAL
+			decoration
+			forecolor 1 1 1 1
+			visible 1
+		}
+	}
+}
